@@ -1,0 +1,20 @@
+{
+    "CardMasked": "************0299",
+    "DJson": "{\"accountNum\":\"115222877\",\"browser_agent\":\"RP1A.190711.020 BLU Z90\",\"ip_address\":\"127.0.0.1\",\"id_api\":\"edc\",\"ip_server\":\"68\",\"req_id\":\"1708319487937\",\"session\":\"ad452bfa84bc5c6102152f704ca55c4b\",\"kode_loket\":\"50309\",\"kode_mitra\":\"BNI\",\"kode_cabang\":\"259\"}",
+    "NARASI": "Cek Saldo BNI",
+    "FLD3": "311000",
+    "IID": "2",
+    "kodeAgen": "50309",
+    "MMID": "1020000000040614",
+    "NII": "0073",
+    "PINB": "45444445384530343444374234414246",
+    "POSCON": "00",
+    "POSENT": "22",
+    "REFNO": "2024021912125929800350309",
+    "ReffNum": "2024021912125929800350309",
+    "SEC": "FC8F624DEAC9C5035B9FE9CABB88F378B7D2BE65C288A12F22AAD8D3300A5A2A3C2EBC9D130B6512732D7206C46EF0CB3C6BD09FEDAB9978300B6C9932B8565C",
+    "STAN": 2,
+    "MTID": "1040000000052365",
+    "toAccount": "0000000115222877",
+    "IdTransaction": "5030917083195792620004"
+}

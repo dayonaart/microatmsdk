@@ -1,0 +1,55 @@
+group 'id.bni46.microatmsdk'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.6.10'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 33
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        minSdkVersion 21
+        buildConfigField("String", "SDK_KEY", SDK_KEY)
+        buildConfigField("String", "MASTER_KEY", MASTER_KEY)
+        buildConfigField("String", "TDK_KEY", TDK_KEY)
+        buildConfigField("String", "PIN_KEY", PIN_KEY)
+        buildConfigField("String", "MAC_KEY", MAC_KEY)
+    }
+}
+dependencies {
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation fileTree(dir: "src/main/libs/", includes: ['*jar'])
+}

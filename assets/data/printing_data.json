@@ -1,0 +1,49 @@
+{
+    "namaFitur": "LPG 3 KG",
+    "isCetakUlang": false,
+    "namaAgen": "Heka",
+    "footerMessage": null,
+    "qrCode": "00HAS0DH",
+    "dataList": [
+        {
+            "lineString": "Nomor     : 20230502145858",
+            "isLarge": false
+        },
+        {
+            "lineString": "Referensi : 86000850316",
+            "isLarge": false
+        },
+        {
+            "lineString": "ID        : 6666",
+            "isLarge": false
+        },
+        {
+            "lineString": "Pangkalan",
+            "isLarge": false
+        },
+        {
+            "lineString": "ID Agen   : 33333",
+            "isLarge": false
+        },
+        {
+            "lineString": "LPG",
+            "isLarge": false
+        },
+        {
+            "lineString": "Nama Agen : Sdr Ali",
+            "isLarge": false
+        },
+        {
+            "lineString": "LPG       : MAHMUD",
+            "isLarge": false
+        },
+        {
+            "lineString": "Jumlah    : 2",
+            "isLarge": false
+        },
+        {
+            "lineString": "Tabung",
+            "isLarge": false
+        }
+    ]
+}
